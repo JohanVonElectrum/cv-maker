@@ -1,0 +1,51 @@
+.section {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+        border-bottom: 1px solid var(--color);
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+.achievement-section {
+    margin-bottom: 1rem;
+
+    ul {
+        list-style-type: initial;
+        padding-left: 1.5rem;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        gap: 4rem;
+        width: 100%;
+        max-width: 100%;
+
+        *:nth-child(1) {
+            text-align: left;
+            text-wrap: nowrap;
+        }
+
+        *:nth-child(2) {
+            text-align: center;
+            text-wrap: wrap;
+
+            * {
+                text-wrap: wrap;
+            }
+        }
+
+        *:nth-child(3) {
+            text-align: right;
+            text-wrap: nowrap;
+        }
+    }
+}

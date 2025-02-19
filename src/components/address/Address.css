@@ -1,0 +1,16 @@
+.address {
+    font-style: normal;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 0.25rem;
+    column-gap: 2rem;
+    padding-inline: 1rem;
+    box-sizing: border-box;
+    *:nth-child(odd) {
+        text-align: left;
+    }
+    *:nth-child(even) {
+        text-align: right;
+    }
+}
