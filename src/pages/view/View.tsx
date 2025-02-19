@@ -40,7 +40,7 @@ function View() {
             </main>
             <footer>
                 <span>CV Maker © 2025 - by JohanVonElectrum</span>
-                <p>Generated with <a href="https://github.com/JohanVonElectrum/cv-maker" target="_blank" rel="noreferrer">CV Maker</a></p>
+                <p>Generated with <a href="https://johanvonelectrum.github.io/cv-maker" target="_blank" rel="noreferrer">CV Maker</a></p>
                 <p>CV hosted <a href={`${window.location.origin}${window.location.pathname}?cv=${encodeCV(cv)}`} target="_blank" rel="noreferrer">here</a></p>
             </footer>
         </div>
